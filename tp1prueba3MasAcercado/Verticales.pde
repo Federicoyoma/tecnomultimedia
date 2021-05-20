@@ -58,14 +58,14 @@ OscP5 osc;
     frameRate(30);
     
 
-if(pitch < 50){
-    fill(random(250),random(255),random(10));
+if(pitch < 47){
+  fill(random(55),random(170),random(245));
 }
-if(pitch > 51 && pitch < 60 ){
-    fill(random(250),random(15),random(5));
+if(pitch > 48 && pitch < 65 ){
+    fill(random(250),random(100),random(55));
 }
-if(pitch > 61 && pitch < 90 ){
-    fill(random(5),random(170),random(245));
+if(pitch > 66 && pitch < 90 ){
+    fill(random(250),random(255),random(55));
 }
 
     rect(x1, random(245, 345), x2, random(-300, 300));    
